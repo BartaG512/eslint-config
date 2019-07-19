@@ -11,5 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BartaG",
-  "license": "ISC"
+  "license": "ISC",
+	"peerDependencies": {
+    "eslint": ">= 3"
+	}
 }
