@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-gamma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BartaG",
+  "license": "ISC"
+}
