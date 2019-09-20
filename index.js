@@ -5,6 +5,7 @@ module.exports = {
 		"jest": true
 	},
 	"extends": "eslint:recommended",
+	"plugins": ["jest"],
 	"globals": {
 		"Atomics": "readonly",
 		"SharedArrayBuffer": "readonly"
@@ -13,6 +14,21 @@ module.exports = {
 		"ecmaVersion": 2018
 	},
 	"rules": {
+		"jest/consistent-test-it": ["error", {"fn": "it"}],
+		"jest/expect-expect": "error",
+		"jest/no-duplicate-hooks": "error",
+		"jest/no-empty-title": "error",
+		"jest/no-export": "error",
+		"jest/no-if": "error",
+		"jest/no-standalone-expect": "error",
+		"jest/no-test-return-statement": "error",
+		"jest/no-try-expect": "error",
+		"jest/prefer-to-be-null": "error",
+		"jest/prefer-to-be-undefined": "error",
+		"jest/prefer-to-contain": "error",
+		"jest/prefer-to-have-length": "error",
+		"jest/require-top-level-describe": "error",
+		"jest/require-tothrow-message": "error",
     "no-console": "off",
 		"array-bracket-spacing": "error",
 		"template-curly-spacing": ["error", "never"],
@@ -42,8 +58,6 @@ module.exports = {
 			{ "allowNamedFunctions": true }
 		],
 
-
-		// "max-len": ["error", { "code": 300 }],
 		"no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
 		"padded-blocks": ["error", "never"],
 		"prefer-rest-params": "error",
@@ -72,8 +86,6 @@ module.exports = {
 		"no-mixed-operators": "error",
 		"comma-style": "error",
 		"camelcase": "error",
-		// "new-cap": "error",
-		// "no-underscore-dangle": "error",
 		"comma-dangle": ["error", "always-multiline"],
 		"id-length": ["error", { "min": 1, "max": 40, "exceptions": ["i"] }],
 		"spaced-comment": "error",
@@ -95,10 +107,6 @@ module.exports = {
 			"tab",
 			{ "SwitchCase": 1 }
 		],
-		// "linebreak-style": [
-		// 	// "error",
-		// 	// "windows"
-		// ],
 		"semi": [
 			"error",
 			"always"
