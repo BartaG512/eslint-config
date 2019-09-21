@@ -29,6 +29,8 @@ module.exports = {
 		"jest/prefer-to-have-length": "error",
 		"jest/require-top-level-describe": "error",
 		"jest/require-tothrow-message": "error",
+		"jest/valid-describe": "error",
+		"jest/valid-expect": "error",
     "no-console": "off",
 		"array-bracket-spacing": "error",
 		"template-curly-spacing": ["error", "never"],
