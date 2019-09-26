@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-gamma",
+  "name": "eslint-config-ndpkg",
   "version": "2.1.1",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BartaG512/eslint-config-gamma"
+    "url": "https://github.com/BartaG512/eslint-config"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

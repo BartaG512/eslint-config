@@ -1,14 +1,14 @@
 
 ## Install
 
-npm install eslint-config-gamma --save-dev
+npm install eslint-config-ndpkg --save-dev
 npm install eslint --save-dev
 
 - Create a new .eslintrc in your project root:
 ```js
 // eslintrc.js
 module.exports = {
-	"extends": "gamma"
+	"extends": "ndpkg"
 }
 ```
 
