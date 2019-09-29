@@ -43,6 +43,7 @@ module.exports = {
 			"error", {"functions": "always", "keywords": "always"}
 		],
 		"no-trailing-spaces": "error",
+		"lines-between-class-members": ["error", "always"],
 
 		"no-new-object": "error",
     "prefer-destructuring": ["error", {
