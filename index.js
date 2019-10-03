@@ -1,20 +1,20 @@
 module.exports = {
-	"env": {
-		"es6": true,
-		"node": true,
-		"jest": true
+	env: {
+		es6: true,
+		node: true,
+		jest: true,
 	},
-	"extends": ["eslint:recommended", "plugin:jest/recommended"],
-	"plugins": ["jest"],
-	"globals": {
-		"Atomics": "readonly",
-		"SharedArrayBuffer": "readonly"
+	extends: ["eslint:recommended", "plugin:jest/recommended", "plugin:jest-formatting/strict"],
+	plugins: ["jest", "eslint-plugin-jest-formatting"],
+	globals: {
+		Atomics: "readonly",
+		SharedArrayBuffer: "readonly",
 	},
-	"parserOptions": {
-		"ecmaVersion": 2018
+	parserOptions: {
+		ecmaVersion: 2018,
 	},
-	"rules": {
-		"jest/consistent-test-it": ["error", {"fn": "it"}],
+	rules: {
+		"jest/consistent-test-it": ["error", { fn: "it" }],
 		"jest/expect-expect": "error",
 		"jest/no-duplicate-hooks": "error",
 		"jest/no-empty-title": "error",
@@ -31,37 +31,37 @@ module.exports = {
 		"jest/require-tothrow-message": "error",
 		"jest/valid-describe": "error",
 		"jest/valid-expect": "error",
-    "no-console": "off",
+		"no-console": "off",
 		"array-bracket-spacing": "error",
 		"template-curly-spacing": ["error", "never"],
-		"key-spacing": ["error", { "afterColon": true, "beforeColon": false  }],
+		"key-spacing": ["error", { afterColon: true, beforeColon: false }],
 
-		"keyword-spacing":	 [
-			"error", {"before": true}
+		"keyword-spacing":	[
+			"error", { before: true },
 		],
-		"space-before-blocks":	 [
-			"error", {"functions": "always", "keywords": "always"}
+		"space-before-blocks":	[
+			"error", { functions: "always", keywords: "always" },
 		],
 		"no-trailing-spaces": "error",
 		"lines-between-class-members": ["error", "always"],
 
 		"no-new-object": "error",
-    "prefer-destructuring": ["error", {
-      "array": false,
-      "object": true
-    }, {
-      "enforceForRenamedProperties": false
-    }],
+		"prefer-destructuring": ["error", {
+			array: false,
+			object: true,
+		}, {
+			enforceForRenamedProperties: false,
+		}],
 
 		"no-param-reassign": "error",
 
 		"newline-per-chained-call": "error",
 		"prefer-arrow-callback": [
 			"error",
-			{ "allowNamedFunctions": true }
+			{ allowNamedFunctions: true },
 		],
 
-		"no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+		"no-multiple-empty-lines": ["error", { max: 1, maxEOF: 1 }],
 		"padded-blocks": ["error", "never"],
 		"prefer-rest-params": "error",
 
@@ -74,7 +74,7 @@ module.exports = {
 		"object-curly-spacing": ["error", "always"],
 		"no-loop-func": "error",
 		"eol-last": "error",
-		"no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+		"no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
 		"operator-linebreak": "error",
 		"no-multi-assign": "error",
 		"prefer-const": "error",
@@ -88,33 +88,33 @@ module.exports = {
 
 		"no-mixed-operators": "error",
 		"comma-style": "error",
-		"camelcase": "error",
+		camelcase: "error",
 		"comma-dangle": ["error", "always-multiline"],
-		"id-length": ["error", { "min": 1, "max": 40, "exceptions": ["i"] }],
+		"id-length": ["error", { min: 1, max: 40, exceptions: ["i"] }],
 		"spaced-comment": "error",
 		"space-before-function-paren": ["error", "never"],
-		"semi-spacing": ["error", {"before": false, "after": true}],
+		"semi-spacing": ["error", { before: false, after: true }],
 		"no-multi-spaces": ["error"],
 		"brace-style": "error",
 		"no-else-return": "error",
 
 		"no-var": "error",
 		"quote-props": ["error", "as-needed", {
-			"unnecessary": true
+			unnecessary: true,
 		}],
- 	  "comma-spacing": [1, {
-			"before": false,
-			"after": true
+		"comma-spacing": [1, {
+			before: false,
+			after: true,
 		}],
-		"indent": [
+		indent: [
 			"error",
 			"tab",
-			{ "SwitchCase": 1 }
+			{ SwitchCase: 1 },
 		],
-		"semi": [
+		semi: [
 			"error",
-			"always"
+			"always",
 		],
-		"space-infix-ops": ["error", {"int32Hint": false}]
-	}
+		"space-infix-ops": ["error", { int32Hint: false }],
+	},
 };
