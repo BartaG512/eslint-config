@@ -31,11 +31,11 @@ module.exports = {
 		"jest/require-tothrow-message": "error",
 		"jest/valid-describe": "error",
 		"jest/valid-expect": "error",
+
 		"no-console": "off",
 		"array-bracket-spacing": "error",
 		"template-curly-spacing": ["error", "never"],
 		"key-spacing": ["error", { afterColon: true, beforeColon: false }],
-
 		"keyword-spacing":	[
 			"error", { before: true },
 		],
@@ -43,9 +43,12 @@ module.exports = {
 			"error", { functions: "always", keywords: "always" },
 		],
 		"no-trailing-spaces": "error",
-		"lines-between-class-members": ["error", "always"],
+
+		curly: "error",
 
 		"no-new-object": "error",
+		"no-multi-str": "error",
+		"no-new": "error",
 		"prefer-destructuring": ["error", {
 			array: false,
 			object: true,
@@ -54,6 +57,10 @@ module.exports = {
 		}],
 
 		"no-param-reassign": "error",
+		"no-new-func": "error",
+		"no-new-wrappers": "error",
+		"no-octal": "error",
+		eqeqeq: "error",
 
 		"newline-per-chained-call": "error",
 		"prefer-arrow-callback": [
@@ -61,7 +68,6 @@ module.exports = {
 			{ allowNamedFunctions: true },
 		],
 
-		"no-multiple-empty-lines": ["error", { max: 1, maxEOF: 1 }],
 		"padded-blocks": ["error", "never"],
 		"prefer-rest-params": "error",
 
@@ -73,7 +79,6 @@ module.exports = {
 		"space-in-parens": "error",
 		"object-curly-spacing": ["error", "always"],
 		"no-loop-func": "error",
-		"eol-last": "error",
 		"no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
 		"operator-linebreak": "error",
 		"no-multi-assign": "error",
@@ -82,26 +87,56 @@ module.exports = {
 		"block-spacing": "error",
 		"dot-notation": "error",
 		"no-confusing-arrow": "error",
+		"no-whitespace-before-property": "error",
+		"no-extend-native": "error",
 		"no-nested-ternary": "error",
+		"no-unneeded-ternary": "error",
 		"computed-property-spacing": "error",
 		"func-call-spacing": "error",
-
+		"dot-location": ["error", "property"],
 		"no-mixed-operators": "error",
-		"comma-style": "error",
+		"no-fallthrough": "error",
+		"prefer-object-spread": "error",
+		"default-case": "error",
+		"no-global-assign": "error",
+		"no-empty-function": "error",
+
+		"no-empty-pattern": "error",
+		"no-floating-decimal": "error",
 		camelcase: "error",
-		"comma-dangle": ["error", "always-multiline"],
-		"id-length": ["error", { min: 1, max: 40, exceptions: ["i"] }],
 		"spaced-comment": "error",
 		"space-before-function-paren": ["error", "never"],
-		"semi-spacing": ["error", { before: false, after: true }],
 		"no-multi-spaces": ["error"],
-		"brace-style": "error",
-		"no-else-return": "error",
 
+		"no-sequences": "error",
+		"no-path-concat": "error",
+		"no-new-require": "error",
+		"no-caller": "error",
+		"no-undef-init": "error",
+		"no-iterator": "error",
+		"no-self-compare": "error",
+		"no-magic-numbers": "error",
+		"no-self-assign": "error",
+		"no-useless-concat": "error",
+		"no-case-declarations": "error",
+		"no-implied-eval": "error",
+		"no-implicit-coercion": "error",
+
+		"brace-style": "error",
+		"no-return-assign": "error",
+		"no-else-return": "error",
+		"no-useless-return": "error",
+
+		"no-unmodified-loop-condition": "error",
+		yoda: ["error", "never", { exceptRange: true }],
 		"no-var": "error",
+		"one-var": ["error", "never"],
 		"quote-props": ["error", "as-needed", {
 			unnecessary: true,
 		}],
+		radix: ["error", "as-needed"],
+		"comma-style": "error",
+		"comma-dangle": ["error", "always-multiline"],
 		"comma-spacing": [1, {
 			before: false,
 			after: true,
@@ -111,10 +146,20 @@ module.exports = {
 			"tab",
 			{ SwitchCase: 1 },
 		],
+		"switch-colon-spacing": "error",
+
+		"semi-spacing": ["error", { before: false, after: true }],
 		semi: [
 			"error",
 			"always",
 		],
+		"no-lonely-if": "error",
+		"lines-between-class-members": ["error", "always"],
+		"no-multiple-empty-lines": ["error", { max: 1, maxEOF: 1 }],
 		"space-infix-ops": ["error", { int32Hint: false }],
+		"max-statements-per-line": ["error", { max: 1 }],
+		"max-lines-per-function": ["error", { max: 180, skipBlankLines: true, skipComments: true }],
+		"id-length": ["error", { min: 1, max: 40, exceptions: ["i"] }],
+		"eol-last": "error",
 	},
 };
