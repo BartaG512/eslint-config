@@ -116,7 +116,7 @@ module.exports = {
 		"no-undef-init": "error",
 		"no-iterator": "error",
 		"no-self-compare": "error",
-		"no-magic-numbers": "error",
+		// "no-magic-numbers": "error",
 		"no-self-assign": "error",
 		"no-useless-concat": "error",
 		"no-case-declarations": "error",
