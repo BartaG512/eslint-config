@@ -44,8 +44,7 @@ module.exports = {
 		],
 		"no-trailing-spaces": "error",
 
-
-		"curly": "error",
+		curly: "error",
 
 		"no-new-object": "error",
 		"no-multi-str": "error",
@@ -61,7 +60,7 @@ module.exports = {
 		"no-new-func": "error",
 		"no-new-wrappers": "error",
 		"no-octal": "error",
-		"eqeqeq": "error",
+		eqeqeq: "error",
 
 		"newline-per-chained-call": "error",
 		"prefer-arrow-callback": [
@@ -116,7 +115,6 @@ module.exports = {
 		"no-undef-init": "error",
 		"no-iterator": "error",
 		"no-self-compare": "error",
-		// "no-magic-numbers": "error",
 		"no-self-assign": "error",
 		"no-useless-concat": "error",
 		"no-case-declarations": "error",
@@ -129,7 +127,7 @@ module.exports = {
 		"no-useless-return": "error",
 
 		"no-unmodified-loop-condition": "error",
-		yoda: ["error", "never", { "exceptRange": true }],
+		yoda: ["error", "never", { exceptRange: true }],
 		"no-var": "error",
 		"one-var": ["error", "never"],
 		"quote-props": ["error", "as-needed", {
@@ -158,8 +156,7 @@ module.exports = {
 		"lines-between-class-members": ["error", "always"],
 		"no-multiple-empty-lines": ["error", { max: 1, maxEOF: 1 }],
 		"space-infix-ops": ["error", { int32Hint: false }],
-		"max-statements-per-line": ["error", { "max": 1 }],
-		"max-lines-per-function": ["error", {"max": 180, "skipBlankLines": true, "skipComments": true}],
+		"max-statements-per-line": ["error", { max: 1 }],
 		"id-length": ["error", { min: 1, max: 40, exceptions: ["i"] }],
 		"eol-last": "error",
 	},

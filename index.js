@@ -157,7 +157,6 @@ module.exports = {
 		"no-multiple-empty-lines": ["error", { max: 1, maxEOF: 1 }],
 		"space-infix-ops": ["error", { int32Hint: false }],
 		"max-statements-per-line": ["error", { max: 1 }],
-		"max-lines-per-function": ["error", { max: 180, skipBlankLines: true, skipComments: true }],
 		"id-length": ["error", { min: 1, max: 40, exceptions: ["i"] }],
 		"eol-last": "error",
 	},
