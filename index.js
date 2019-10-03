@@ -93,7 +93,7 @@ module.exports = {
 		"id-length": ["error", { "min": 1, "max": 40, "exceptions": ["i"] }],
 		"spaced-comment": "error",
 		"space-before-function-paren": ["error", "never"],
-		"semi-spacing": ["error", {"before": false, "after": false}],
+		"semi-spacing": ["error", {"before": false, "after": true}],
 		"no-multi-spaces": ["error"],
 		"brace-style": "error",
 		"no-else-return": "error",
