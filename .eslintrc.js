@@ -70,12 +70,10 @@ module.exports = {
 
 		"padded-blocks": ["error", "never"],
 		"prefer-rest-params": "error",
-
+		"no-unused-vars": ["error", { ignoreRestSiblings: true }],
 		"arrow-parens": "error",
 		"arrow-body-style": ["error", "always"],
 		"no-restricted-globals": "error",
-
-		"no-new-func": "error",
 		"space-in-parens": "error",
 		"object-curly-spacing": ["error", "always"],
 		"no-loop-func": "error",
