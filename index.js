@@ -40,7 +40,7 @@ module.exports = {
 			"error", { before: true },
 		],
 		"space-before-blocks":	[
-			"error", { functions: "always", keywords: "always" },
+			"error", { functions: "always", keywords: "always", classes: "always" },
 		],
 		"no-trailing-spaces": "error",
 
