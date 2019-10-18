@@ -31,6 +31,7 @@ module.exports = {
 		"jest/require-tothrow-message": "error",
 		"jest/valid-describe": "error",
 		"jest/valid-expect": "error",
+		"object-shorthand": "error",
 
 		"no-console": "off",
 		"array-bracket-spacing": "error",
