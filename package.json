@@ -9,7 +9,7 @@
   "author": "BartaG",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 6"
   },
   "dependencies": {
     "eslint": "^6.5.1",

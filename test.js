@@ -6,3 +6,4 @@ class ClassName {
 		};
 	}
 }
+getTestConfig;
