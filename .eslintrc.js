@@ -50,7 +50,7 @@ module.exports = {
 		"no-trailing-spaces": "error",
 
 		curly: "error",
-		"max-len": ["error", { code: 80 }],
+		"max-len": ["error", { code: 150 }],
 		"no-new-object": "error",
 		"no-multi-str": "error",
 		"no-new": "error",
