@@ -15,7 +15,7 @@ module.exports = {
 		getTestConfig: "readonly",
 	},
 	parserOptions: {
-		// ecmaVersion: 10,
+		ecmaVersion: 10,
 	},
 	rules: {
 		// "jest/consistent-test-it": ["error", { fn: "it" }],
