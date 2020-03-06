@@ -3,25 +3,19 @@ class ClassName {
 		const variable = 1;
 		const hey = { a: 1, b: 2 };
 		const hello = {	...hey,	variable };
-		const obj0 = { foo: "foo", bar: "bar", baz: "baz" };
-		const obj1 = {
-			foo: "foo",
-			bar: "bar",
-			baz: "baz",
+
+		// this.logger.info('hello', '11');
+		const logger = () => {
+
 		};
-		const newObject = {
-			a: 'a.m.', b: 'p.m.', c: 1, d: 4,
-			c: 'daylight saving time',
-		};
-		console.log("hello", hello);
-		const promise = new Promise((resolve, reject) => {
-			`hello, ${people.name}!`;
-		});
-		const m = async() => {
-			await promise();
-			const m = "hey";
-		};
-		Symbol('1');
+		logger.info('hello', 'mize');
+		this.logger.info('Message');
+		logger.info('hello', ['1']);
+		logger.warn('hello', { error: 1 });
+		console.warn('hello', ['1']);
+		this.logger.info('Message', 'Hello');
+		// this.logger.info('hello', { what: "isLove" });
+		// Symbol('1');
 	}
 }
-console.log("ClassName", ClassName);
+// console.log("ClassName", ClassName);

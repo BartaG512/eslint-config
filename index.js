@@ -1,4 +1,8 @@
+
 module.exports = {
+	plugins: [
+		"eslint-plugin-logger",
+	],
 	env: {
 		es6: true,
 		node: true,
@@ -7,6 +11,7 @@ module.exports = {
 	extends: [
 		"eslint:recommended",
 	],
+
 	globals: {
 		Atomics: "readonly",
 		SharedArrayBuffer: "readonly",
@@ -16,6 +21,7 @@ module.exports = {
 		ecmaVersion: 10,
 	},
 	rules: {
+		"logger/logger-argument": 'error',
 		"array-bracket-spacing": "error",
 		"template-curly-spacing": ["error", "never"],
 		"key-spacing": ["error", {
