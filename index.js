@@ -3,6 +3,7 @@ module.exports = {
 	plugins: [
 		"eslint-plugin-logger",
 		"eslint-plugin-jest",
+		"eslint-plugin-jest-formatting",
 	],
 	env: {
 		es6: true,
@@ -11,6 +12,7 @@ module.exports = {
 	},
 	extends: [
 		"eslint:recommended",
+		"plugin:jest-formatting/recommended",
 	],
 
 	globals: {
@@ -22,6 +24,7 @@ module.exports = {
 		ecmaVersion: 10,
 	},
 	rules: {
+		"jest-formatting/padding-around-expect-groups": ["error"],
 		"jest/consistent-test-it": ["error", { fn: "it" }],
 		"jest/expect-expect": "error",
 		"jest/no-duplicate-hooks": "error",
