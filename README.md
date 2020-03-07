@@ -1,3 +1,7 @@
+##
+
+This repository holds eslint-plugin-logger package too it is needed to be published separately as this package eslint-config-ndpkg depend on eslint-plugin-logger.
+
 
 ## Install
 

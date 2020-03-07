@@ -19,3 +19,15 @@ class ClassName {
 	}
 }
 // console.log("ClassName", ClassName);
+(async() => {
+	console.log("yes");
+})();
+const red = 1;
+if (red === 1) {
+
+}
+
+if (red === "red") {
+
+}
+

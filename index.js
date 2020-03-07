@@ -22,6 +22,12 @@ module.exports = {
 	},
 	rules: {
 		"logger/logger-argument": 'error',
+		"padding-line-between-statements": [
+			"error",
+			{ blankLine: "always", prev: "cjs-import", next: "function" },
+			{ blankLine: "always", prev: "*", next: "class" },
+		],
+		yoda: ["error", "never", { exceptRange: true }],
 		"array-bracket-spacing": "error",
 		"template-curly-spacing": ["error", "never"],
 		"key-spacing": ["error", {
