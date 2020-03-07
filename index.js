@@ -48,6 +48,7 @@ module.exports = {
 			"error",
 			{ blankLine: "always", prev: "cjs-import", next: "function" },
 			{ blankLine: "always", prev: "*", next: "class" },
+			{ blankLine: "always", prev: "*", next: "if" },
 		],
 		yoda: ["error", "never", { exceptRange: true }],
 		"array-bracket-spacing": "error",
