@@ -2,7 +2,7 @@
 module.exports = {
 	plugins: [
 		"eslint-plugin-logger",
-		"jest",
+		"eslint-plugin-jest",
 	],
 	env: {
 		es6: true,
@@ -39,7 +39,6 @@ module.exports = {
 		"jest/require-tothrow-message": "error",
 		"jest/valid-describe": "error",
 		"jest/valid-expect": "error",
-		"jest/require-to-throw-message": "error",
 
 		"logger/logger-argument": 'error',
 		"padding-line-between-statements": [
