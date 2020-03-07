@@ -2,6 +2,7 @@
 module.exports = {
 	plugins: [
 		"eslint-plugin-logger",
+		"jest",
 	],
 	env: {
 		es6: true,
@@ -21,6 +22,25 @@ module.exports = {
 		ecmaVersion: 10,
 	},
 	rules: {
+		"jest/consistent-test-it": ["error", { fn: "it" }],
+		"jest/expect-expect": "error",
+		"jest/no-duplicate-hooks": "error",
+		"jest/no-empty-title": "error",
+		"jest/no-export": "error",
+		"jest/no-if": "error",
+		"jest/no-standalone-expect": "error",
+		"jest/no-test-return-statement": "error",
+		"jest/no-try-expect": "error",
+		"jest/prefer-to-be-null": "error",
+		"jest/prefer-to-be-undefined": "error",
+		"jest/prefer-to-contain": "error",
+		"jest/prefer-to-have-length": "error",
+		"jest/require-top-level-describe": "error",
+		"jest/require-tothrow-message": "error",
+		"jest/valid-describe": "error",
+		"jest/valid-expect": "error",
+		"jest/require-to-throw-message": "error",
+
 		"logger/logger-argument": 'error',
 		"padding-line-between-statements": [
 			"error",
