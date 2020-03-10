@@ -15,6 +15,8 @@ class ClassName extends Hello {
 		};
 		const hello1 = '121';
 		const hello12 = 'dfsfdgh';
+		const error = new Error();
+		throw error;
 		// this.logger.info('hello', '11');
 		const logger = () => {
 

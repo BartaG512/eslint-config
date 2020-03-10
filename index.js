@@ -134,6 +134,7 @@ module.exports = {
 		'no-func-assign': 'error',
 		'no-global-assign': 'error',
 		'no-implicit-coercion': 'error',
+		'no-throw-literal': 'error',
 		'no-implied-eval': 'error',
 		'no-iterator': 'error',
 		'no-lonely-if': 'error',
