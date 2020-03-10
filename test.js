@@ -1,13 +1,17 @@
+const module = require('./hello.js');
 
 class ClassName extends Hello {
 	constructor() {
 		this.he = 1;
 		super();
 		const variable = 1;
-		const hey = { a: 1, c: 2, f: 3, b: 2 };
+		const hey = { a: 1, b: 1 };
 		const hello = {
-			...hey,
 			variable,
+			...{
+				a: 1,
+				b: 2,
+			},
 		};
 		const hello1 = '121';
 		const hello12 = 'dfsfdgh';
@@ -48,3 +52,5 @@ let m = 4;
 while (m = text.match(expr)) {
 	// ...
 }
+
+module.exports = { setupFilesAfterEnv: ['jest-extended'] };

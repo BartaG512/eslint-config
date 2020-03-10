@@ -3,6 +3,7 @@ module.exports = {
 	plugins: [
 		'eslint-plugin-logger',
 		'eslint-plugin-jest',
+		'eslint-plugin-node',
 		'eslint-plugin-jest-formatting',
 	],
 	env: {
@@ -109,6 +110,11 @@ module.exports = {
 			{ max: 1 },
 		],
 		'newline-per-chained-call': 'error',
+		'node/exports-style': [
+			'error',
+			'module.exports',
+			{ allowBatchAssign: false },
+		],
 		'no-array-constructor': 'error',
 		'no-caller': 'error',
 		'no-case-declarations': 'error',
