@@ -186,7 +186,9 @@ module.exports = {
 			'error',
 			'always',
 		],
-		'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
+		'object-property-newline': ['error',
+			{ allowAllPropertiesOnSameLine: true },
+		],
 		'object-curly-newline': [
 			'error',
 			{ multiline: true },

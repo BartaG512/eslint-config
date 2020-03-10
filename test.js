@@ -5,13 +5,15 @@ class ClassName extends Hello {
 		this.he = 1;
 		super();
 		const variable = 1;
-		const hey = { a: 1, b: 1 };
+		const hey = {
+			a: 1,
+			b: 1,
+			v: 1,
+		};
 		const hello = {
-			variable,
-			...{
-				a: 1,
-				b: 2,
-			},
+			a: 1,
+			b: 2,
+			c: 2,
 		};
 		const hello1 = '121';
 		const hello12 = 'dfsfdgh';
@@ -56,3 +58,4 @@ while (m = text.match(expr)) {
 }
 
 module.exports = { setupFilesAfterEnv: ['jest-extended'] };
+
