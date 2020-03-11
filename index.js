@@ -207,18 +207,43 @@ module.exports = {
 			'error',
 			{
 				blankLine: 'always',
+				prev: '*',
 				next: 'class',
-				prev: '*',
 			},
 			{
 				blankLine: 'always',
+				prev: 'cjs-export',
+				next: '*',
+			},
+			{
+				blankLine: 'always',
+				prev: '*',
+				next: 'cjs-export',
+			},
+			{
+				blankLine: 'always',
+				prev: 'cjs-export',
+				next: '*',
+			},
+			{
+				blankLine: 'always',
+				prev: 'class',
+				next: '*',
+			},
+			{
+				blankLine: 'always',
+				prev: '*',
 				next: 'function',
-				prev: 'cjs-import',
 			},
 			{
 				blankLine: 'always',
-				next: 'if',
+				prev: 'function',
+				next: '*',
+			},
+			{
+				blankLine: 'always',
 				prev: '*',
+				next: 'if',
 			},
 		],
 		'prefer-arrow-callback': [

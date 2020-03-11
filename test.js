@@ -47,6 +47,7 @@ class ClassName extends Hello {
 		console.log('1');
 	}
 }
+
 // console.log("ClassName", ClassName);
 (async() => {
 	console.log('yes');
@@ -78,3 +79,9 @@ class class12 {
 
 	}
 }
+
+function testFunc(err, origin) {
+
+}
+
+const hel = 1;
