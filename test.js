@@ -5,6 +5,12 @@ class ClassName extends Hello {
 		this.he = 1;
 		super();
 		const variable = 1;
+
+		const {
+			ownName: ds,
+			configServerPort,
+			configServerHost,
+		} = nodeArgs;
 		const hey = {
 			a: 1,
 			b: 1,
@@ -36,6 +42,10 @@ class ClassName extends Hello {
 		// this.logger.info('hello', { what: "isLove" });
 		// Symbol('1');
 	}
+
+	method1() {
+		console.log('1');
+	}
 }
 // console.log("ClassName", ClassName);
 (async() => {
@@ -59,3 +69,12 @@ while (m = text.match(expr)) {
 
 module.exports = { setupFilesAfterEnv: ['jest-extended'] };
 
+class class12 {
+	constructor() {
+
+	}
+
+	method1() {
+
+	}
+}

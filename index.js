@@ -5,6 +5,7 @@ module.exports = {
 		'eslint-plugin-jest',
 		'eslint-plugin-node',
 		'eslint-plugin-jest-formatting',
+		'eslint-plugin-sort-class-members',
 	],
 	env: {
 		es6: true,
@@ -268,6 +269,13 @@ module.exports = {
 				keywords: 'always',
 			},
 		],
+		'sort-class-members/sort-class-members': [2, {
+			order: [
+				'constructor',
+				'[everything-else]',
+			],
+		}],
+
 		'space-before-function-paren': [
 			'error',
 			'never',
