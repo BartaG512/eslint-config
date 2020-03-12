@@ -261,6 +261,7 @@ module.exports = {
 		],
 		'prefer-object-spread': 'error',
 		'prefer-rest-params': 'error',
+		'prefer-promise-reject-errors': 'error',
 		'quote-props': [
 			'error',
 			'as-needed',

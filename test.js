@@ -85,3 +85,7 @@ function testFunc(err, origin) {
 }
 
 const hel = 1;
+
+const p = new Promise((resolve, reject) => {
+	reject('1');
+});
