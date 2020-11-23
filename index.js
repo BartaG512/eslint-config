@@ -1,5 +1,6 @@
 
 module.exports = {
+	root: true,
 	plugins: [
 		'eslint-plugin-logger',
 		'eslint-plugin-jest',
