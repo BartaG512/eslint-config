@@ -247,6 +247,7 @@ module.exports = {
 				next: 'if',
 			},
 		],
+		'arrow-spacing': ['error', { before: true, after: true }],
 		'prefer-arrow-callback': [
 			'error',
 			{ allowNamedFunctions: true },
