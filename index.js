@@ -23,7 +23,7 @@ module.exports = {
 		SharedArrayBuffer: 'readonly',
 		testConfig: 'readonly',
 	},
-	parserOptions: { ecmaVersion: 10 },
+	parserOptions: { ecmaVersion: 2020 },
 	rules: {
 		'accessor-pairs': 'error',
 		'array-bracket-spacing': 'error',
