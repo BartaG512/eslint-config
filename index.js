@@ -30,6 +30,7 @@ module.exports = {
 		'arrow-body-style': ['error', 'always'],
 		'arrow-parens': 'error',
 		'block-spacing': 'error',
+		'prefer-template': 'error',
 		'brace-style': 'error',
 		camelcase: 'error',
 		'comma-dangle': ['error', 'always-multiline'],
