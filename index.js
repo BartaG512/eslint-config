@@ -1,7 +1,9 @@
+const jsdocRules = require('./jsdoc-rules');
 
 module.exports = {
 	root: true,
 	plugins: [
+		'eslint-plugin-jsdoc',
 		'eslint-plugin-logger',
 		'eslint-plugin-jest',
 		'eslint-plugin-node',
@@ -25,6 +27,7 @@ module.exports = {
 	},
 	parserOptions: { ecmaVersion: 2020 },
 	rules: {
+		...jsdocRules,
 		'accessor-pairs': 'error',
 		'array-bracket-spacing': 'error',
 		'arrow-body-style': ['error', 'always'],

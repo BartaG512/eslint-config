@@ -6,10 +6,10 @@ describe('description', () => {
 	beforeEach(() => {
 	});
 
-	it("12", () => {
+	it('12', () => {
 		console.log('valami');
 		let errorStack;
-		const stackSymbol = info[Symbol.for("stack")];
+		const stackSymbol = info[Symbol.for('stack')];
 
 		if (isErrorStack(stackSymbol)) {
 			errorStack = stackSymbol;
