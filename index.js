@@ -28,6 +28,9 @@ module.exports = {
 	parserOptions: { ecmaVersion: 2020 },
 	rules: {
 		...jsdocRules,
+		'space-unary-ops': 'error',
+		'no-useless-rename': 'error',
+		'rest-spread-spacing': ['error'],
 		'accessor-pairs': 'error',
 		'array-bracket-spacing': 'error',
 		'arrow-body-style': ['error', 'always'],
