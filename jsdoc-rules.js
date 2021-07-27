@@ -4,7 +4,13 @@ module.exports = {
 	// 'jsdoc/check-examples': 1,
 	// 'jsdoc/check-indentation': 1,
 	// 'jsdoc/check-line-alignment': 1,
-	'jsdoc/check-param-names': 1, // Recommended
+	'jsdoc/check-param-names': ['error', {
+		allowExtraTrailingParamDocs: true,
+		checkDestructured: false,
+		disableExtraPropertyReporting: true,
+		checkRestProperty: false,
+		useDefaultObjectProperties: false,
+	}], // Recommended
 	'jsdoc/check-property-names': 1, // Recommended
 	// 'jsdoc/check-syntax': 1,
 	'jsdoc/check-tag-names': 1, // Recommended

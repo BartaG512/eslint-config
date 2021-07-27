@@ -70,22 +70,18 @@ while (m = text.match(expr)) {
 
 module.exports = { setupFilesAfterEnv: ['jest-extended'] };
 
-class class12 {
-	constructor() {
-
-	}
-
-	method1() {
-
-	}
+/**
+ * @description - Szállítási indok. Milyen okkal tart oda ahová tart. pl.: Valamilyen hiba történt, és elküldjük a kijáratra.
+ * @param {object} obj
+ * @param {object} obj.transport Transport példány
+ * @param {object | string} obj.deliveryReason - Ez lehet egy object amiben vagy egy string kulcs
+ * a resource konfig "plcErrorMessageDescriptors" leírójából. Ha a string nem található a leíró fájlban akkor, ahogy van úgy kerül elmentésre.
+ * @param {string} obj.deliveryReason.type - Jelenleg csak típus létezik plcError
+ * @returns {string} A feloldott delivery reasaon
+ */
+async function updateDeliveryReason({ transport, deliveryReason }) {
+	console.log('transport:', transport);
+	console.log('deliveryReason:', deliveryReason);
 }
 
-function testFunc(err, origin) {
-
-}
-
-const hel = 1;
-
-const p = new Promise((resolve, reject) => {
-	reject('1');
-});
+updateDeliveryReason();
