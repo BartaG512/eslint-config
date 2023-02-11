@@ -9,15 +9,22 @@ class ClassName {
 		/**
 			@property {string} a Azigen.
 		 */
-
+		const a = new Boolean();
 		this.hello = 'a';
 	}
 
-	/**
-	 * @description Hello mi van.
-	 * @returns {number} A.
-	 */
-	hello() {
-		return 1;
-	}
+#privatemezo;
+
+/**
+ * @description Hello mi van.
+ * @returns {number} A.
+ */
+hello() {
+	return 1;
 }
+}
+
+for (let i = 1; i < 3; i++) {
+	var b = i;
+}
+console.log(b); // 2
