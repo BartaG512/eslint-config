@@ -2,7 +2,6 @@
 module.exports = {
 	root: true,
 	plugins: [
-		'eslint-plugin-jsdoc',
 		'eslint-plugin-logger',
 		'eslint-plugin-jest',
 		'eslint-plugin-node',

@@ -9,7 +9,7 @@ class ClassName extends Hello {
 		const {
 			ownName: ds,
 			configServerPort,
-			configServerHost,
+			configServerHost, 
 		} = nodeArgs;
 		const hey = {
 			a: 1,
@@ -25,7 +25,7 @@ class ClassName extends Hello {
 		const hello12 = 'dfsfdgh';
 		const error = new Error();
 		throw error;
-		// this.logger.info('hello', '11');
+		// this.logger.info('hello', '11'); 
 		const logger = () => {
 
 		};
@@ -37,13 +37,13 @@ class ClassName extends Hello {
 			a: 1,
 			b: 2,
 		});
-		console.warn('hello', ['1']);
+		console.warn('hello', ['1']); 
 		this.logger.info('Message', 'Hello');
 		// this.logger.info('hello', { what: "isLove" });
 		// Symbol('1');
 	}
 
-	method1() {
+	method1() { 
 		console.log('1');
 	}
 }
