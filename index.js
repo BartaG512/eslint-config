@@ -8,22 +8,12 @@ module.exports = {
 		'eslint-plugin-jest-formatting',
 		'eslint-plugin-sort-class-members',
 	],
-	env: {
-		es6: true,
-		node: true,
-		jest: true,
-	},
+
 	extends: [
 		'eslint:recommended',
 		'plugin:jest-formatting/recommended',
 	],
 
-	globals: {
-		Atomics: 'readonly',
-		SharedArrayBuffer: 'readonly',
-		testConfig: 'readonly',
-	},
-	parserOptions: { ecmaVersion: 2020 },
 	rules: {
 		'space-unary-ops': 'error',
 		'no-useless-rename': 'error',
