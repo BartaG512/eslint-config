@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-ndpkg",
-	"version": "5.2.0",
+	"version": "5.2.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -10,9 +10,9 @@
 	"license": "ISC",
 	"peerDependencies": {
 		"eslint": ">= 8"
-	}, 
+	},
 	"dependencies": {
-    "eslint": "^8.57.1",
+		"eslint": "^8.57.1",
 		"eslint-plugin-jest": "^28.9.0",
 		"eslint-plugin-jest-formatting": "3.1.0",
 		"eslint-plugin-logger": "^1.0.0",
