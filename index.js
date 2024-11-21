@@ -1,4 +1,3 @@
-const jsdocRules = require('./jsdoc-rules');
 
 module.exports = {
 	root: true,
@@ -27,7 +26,6 @@ module.exports = {
 	},
 	parserOptions: { ecmaVersion: 2020 },
 	rules: {
-		...jsdocRules,
 		'space-unary-ops': 'error',
 		'no-useless-rename': 'error',
 		'rest-spread-spacing': ['error'],
@@ -69,7 +67,9 @@ module.exports = {
 				min: 1,
 			},
 		],
-		indent: [
+		indent: 'off',
+
+		'@typescript-eslint/indent': [
 			'error',
 			'tab',
 			{ SwitchCase: 1 },
