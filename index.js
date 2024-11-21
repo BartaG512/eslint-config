@@ -68,11 +68,6 @@ module.exports = {
 		],
 		indent: 'off',
 
-		'@typescript-eslint/indent': [
-			'error',
-			'tab',
-			{ SwitchCase: 1 },
-		],
 		'jest-formatting/padding-around-expect-groups': [
 			'error',
 		],
@@ -84,7 +79,6 @@ module.exports = {
 		'jest/no-duplicate-hooks': 'error',
 		'jest/valid-title': 'error',
 		'jest/no-export': 'error',
-		'jest/no-if': 'error',
 		'jest/no-standalone-expect': 'error',
 		'jest/no-test-return-statement': 'error',
 		'jest/no-conditional-expect': 'error',
